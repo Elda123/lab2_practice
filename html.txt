@@ -1,0 +1,23 @@
+what are plugins in vscode?
+lorem placeholder text
+<hr> is put usually inside header tag
+ul>li*2 creates 2 nested lists in an unoredered list
+triangle mnamn
+alt-is an attribute of the image tag ,description of image or when the image cannot be loaded
+src=  "./ blesh jemri relative path tetekemi
+<tr> row
+<td> or <th> cells put in the created row keza allignmentachew column yfetrlnal
+window + . emoji
+cell spacing - gap between the cells or AKA margine ende gap between columns malet new table lay
+cell padding - between the content and the rectangular border
+WEB DEVT IS ALL ABOUT TRIAL AND ERROR
+th attribute????
+external links/url target = "_blank " ------new tab lay endifeteru new mareg yalebn
+always navigation exists on the top ........below the the bosy tag
+css lay nav metekem enchlalen html lay it brings no difference
+header footer side andaynet mehon alebachew except bodyw new mikeyerew
+textarea tag
+<form action="http://www.google.com"> blen mnaskemtew is for submit mnaregew data mihedbet new in this case wede google malet new
+form lay method is by default get
+
+unsplash & pixabay
