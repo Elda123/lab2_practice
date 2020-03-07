@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elda</title>
+    <title>Elda Girma</title>
+    <link rel="shortcut icon" href="./asset/image/icon.png">
 </head>
 <body>
-    <!-- comment ctrl + slash -->
+    <!-- comment ctrl + slash 🤢-->
     <hr>
-    <a href="index.html">Home</a><br>
-    <a href="contact.html">Contact</a>
+    <a href="index.html">Home</a>&nbsp &nbsp
+    <a href="contact.html">Contact</a>&nbsp &nbsp
+    <a href="gallery.html">Gallery</a>
     <hr>
     <!-- side by side headerun ena pic -->
 
@@ -26,18 +28,57 @@
     <h3>contact us....</h3>
     <!-- actio  blen mnaskemtew is for submit mnaregew data mihedbet new -->
     <form action="mailto:se.elda.girma@gmail.com" enctype="utf-8 me" method="POST"> 
-       name: <input type="text"><br><br>
-       <label for="fname">name</label><input type="text" id="fname"><br><br>
-       password: <input type="password"><br><br>
-       <textarea name="detail" id="" cols="30" rows="10"></textarea><br>
-       <input type="submit" value="submit"><br><br>
-       where are u from?
+        <table>
+            <tr>
+                <td>first name:</td>
+                <td><input type="text" pattern="[A-Za-z]" title="use english alphabets"></td>
+            </tr>
+            <tr>
+                <td>last name:</td>
+                <td><input type="text" pattern="[A-Za-z]" title="use english alphabets"></td>
+            </tr>
+            <tr>
+                <td>email:</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>password:</td>
+                <td><input type="password" pattern="[A-Za-z/d]{8,15}" title="password must include
+                     capital and small letters, numbers and must be morethan 8 upto 15 characters" required></td>
+            </tr>
+            <tr>
+                <td>age:</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>sex:</td>
+                <td><input type="radio"/>Male <input type="radio"/>Female</td>
+            </tr>
+            <tr>
+                <td>date of birth:</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>telephone number:</td>
+                <td><input type="tel" pattern="[d]{10-12}" title=" 10 upto 12 digit numbers only"></td>
+            </tr>
+            <tr>
+                <td>what do you want to say?</td>
+                <td><textarea name="detail" id="" cols="30" rows="10"></textarea></td>
+                <td><input type="submit" value="submit"></td>
+            </tr>
+        
+       <tr><td>
+       where are u from?</td>
+       <td>
        <select name="country" id="">
            <option value="eth">Ethiopia</option>
            <option >nigeria</option>
            <option >ghana</option>
            <option >other</option>
-       </select>
+       </select></td>
+    </tr>
+    </table>
         </form>
         <footer>
             <hr>
