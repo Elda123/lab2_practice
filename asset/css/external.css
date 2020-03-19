@@ -60,3 +60,73 @@ h3{
     padding-bottom: 6px;
 
 }
+div.map, form{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+form {
+    position: relative;
+    width: 30%;
+    margin: 0 0 5% 5%;
+    float: left;
+    padding: 0;
+}
+
+label {
+    padding: 12px 0 12px 0;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 15px;
+    }
+
+input[type=submit]{
+    cursor: pointer;
+    left: 30%;
+    display: block;
+    width: 30%;
+    padding: 5px;
+    margin: 5%;
+    background-color:   rgb(207, 53, 138);
+}
+
+
+input[type=text],input[type=email], input[type=tel], input[type=password], select, textarea {
+    padding: 8px 0;
+    width: 100%;
+    display:block;
+    box-sizing: content-box;
+    background-color: white;
+    border: black solid;
+}
+
+
+#map {
+    float: left;
+    width: 45%;
+    margin: 10%;
+    
+}
+
+
+
+#id1{
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+}
+section{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 30px;
+    line-height: 1;
+}
+img{
+    float: left;
+    
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 300px;
+}

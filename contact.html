@@ -1,75 +1,77 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elda Girma</title>
-    <link rel="shortcut icon" href="./asset/image/icon.png">
-    <link rel="stylesheet" href="./asset/css/external.css">
+    <link rel="shortcut icon" type="image/png" href="./image/favicon.png">
+    <link  rel="stylesheet" href="./asset/css/external.css">
 </head>
 <body>
-    <!-- comment ctrl + slash 🤢-->
-    <hr>
-    <a href="index.html">Home</a>&nbsp &nbsp
-    <a href="contact.html">Contact</a>&nbsp &nbsp
-    <a href="gallery.html">Gallery</a>
-    <hr>
-    <!-- side by side headerun ena pic -->
-
-    <table><tr>
-        <td><img src = "./asset/image/pic1.jpg" alt = "profile image"></td>
-        <td><h1>Iris</h1>
-            <h3>student,addis ababa institute of technology</h3>
-            <p>My name is Iris.I am  amatuer web developer who ha Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, iste. Mollitia et necessitatibus sequi animi optio cum eum incidunt, fugit ipsum tempore quos qui iusto error facilis ratione autem consequatur!</p>
-        </td>
-    </tr></table>
-    
-    
-    <hr>
-    <h3>contact us....</h3>
-    <form action="mailto:se.elda.girma@gmail.com" enctype="utf-8 me" method="POST"> 
-            <div class="class1">
+    <header >
+        <nav>
+            <ul>
+                <li><a href="index.html"> Home</a></li>
                 
-                   <label>first name:</label> 
-                    <input type="text" pattern="[A-Za-z]" title="use english alphabets">
-               <label >last name:</label>
-                    <input type="text" pattern="[A-Za-z]" title="use english alphabets">
-               <label >email:</label> 
-                    <input type="email">
-                <label>password:</label> 
-                    <input type="password" pattern="[A-Za-z/d]{8,15}" title="password must include
-                         capital and small letters, numbers and must be morethan 8 upto 15 characters" required>
-               <label >age:</label> 
-                    <input type="number">
-                <label > sex:</label>
-                    <input type="radio"/>Male <input type="radio"/>Female
-                <label > date of birth:</label>
-                    <input type="date">
-               <label >telephone number:</label>
-                    <input type="tel" pattern="[d]{10-12}" title=" 10 upto 12 digit numbers only">
-                <label >what do you want to say?</label>
-                    <textarea name="detail" id="" cols="30" rows="10"></textarea>
-                    <input type="submit" value="submit">
-                 <label >where are u from?</label>
-           
+                <li><a href="contact.html"> Contact</a></li>
+                
+                <li><a href="Gallery.html"> Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="marg">
+        <h1>Contact Me</h1>
+    </section>
+    <div class="line"></div>
+    <div class="ima"><img src="./asset/image/pic1.jpg" alt=""></div>
+    <section >
+        <h1> Elda Girma</h1>
+        <h2>Addis ababa Universty</h2>
+        <p> Hello,I'm Elda. I am a software engineering student in Addis Ababa Universty center of Information Technology and Scientfic Computing Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem illo dolor provident dignissimos ipsum quo assumenda illum ullam sunt ex similique, perferendis, repellendus quibusdam facilis perspiciatis sed neque molestias voluptatum?</p>
+    </section>
+    <div class="line"></div>
+    <h3 style="margin: 5% 0 1% 2%">Contact Me</h3>
+    <form action="mailto:se.ruth.matewos@gmail.com" enctype="utf-8 me" method="POST"> 
+        <label for="fname"> First Name</label>
+        <input type="text"  pattern="[A-Za-z]{1,10}" title="only Alphabets allowed">
         
-           <select name="country" id="">
-               <option value="eth">Ethiopia</option>
-               <option >nigeria</option>
-               <option >ghana</option>
-               <option >other</option>
-           </select> </div>
-            </form>
+        <label for="lname"> Last Name</label>
+        <input type="text" pattern="[A-Za-z]{1,10}" title="only Alphabets allowed">
+        
+        <label for= "email"> Email</label>
+        <input type="email">
 
-    </td>
-    <td><p><div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20addis%20ababa&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/elementor-review/">planilhas</a></div><style>.mapouter
-        {position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></p>
-        <!-- actio  blen mnaskemtew is for submit mnaregew data mihedbet new --></td>
-</tr></table>
-    
-    
-        <footer>
-            <hr>
-            
-        </footer>
-        <a href = "https://www.instagram.com/" target="_blank">instagram</a>
+        <label for= "password"> password</label>
+        <input type="password" pattern="[A-Za-z/d]{8,15}" title="a password must include number, symbol, albhabet and be greater than 8 character" required>
+
+        <label for= "PhoneNumber"> Phone Number</label>
+        <input type="tel" pattern="[d]{10-12}" title=" 10 upto 12 digit numbers only">
+
+        <label> Country</label>
+        <select name="Country" id="country">
+            <option values="As"> Ethiopia</option>
+            <option value="Af"> kenya</option>
+            <option value="Af"> Eritrea</option>
+            <option value="Af"> Canada</option>
+        </select>
+        
+        <label for="detail"> What Do you say?</label>
+        <textarea type="text" name="details" id="details" cols="30" rows="10">
+        </textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <div id="map">
+
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20Addis%20Ababa%20Institute%20Of%20Technology&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>   
+
+    </div>
+
+
+
+
+
+</body>
+</html>
