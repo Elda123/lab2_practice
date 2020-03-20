@@ -1,0 +1,331 @@
+nav>ul>li{
+    display: inline-block;
+    padding: 9px 18px;
+    font-size: 20px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+nav > ul > li > a:link {
+    color:rgb(204, 200, 185);
+}
+
+nav > ul > li > a:visited {
+    color:rgb(204, 20, 185);
+}
+
+nav > ul > li:hover:not(.active) {
+    background-color: rgb(207, 171, 53);
+}
+
+nav > ul > li > a.active {
+    background-color: rgb(207, 171, 53);
+    color: white;
+}
+.line {
+    border-bottom: rgb(218, 220, 221) 2px solid;
+    clear: left;
+    padding-bottom: 5px;
+}
+header
+{
+    left: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(182, 159, 200, 0.3);
+
+}
+.class1{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 80px;
+} 
+
+.Armenia{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+ float: left;
+}
+#armenia1{
+    background-color: red;
+    border: red solid;
+    height: 80px;
+}
+#armenia2{
+    background-color: blue;
+    border: blue solid;
+    height: 80px;
+}
+#armenia3{
+    background-color: sandybrown;
+    height: 80px;
+}
+body{
+    background-color: rgba(182, 159, 173, 0.3);
+    margin: 1.6%;
+    padding-top: 100px;
+    float: left;
+}
+.name{
+    padding-top: 5px;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Thailand{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left;
+}
+#thailand1{
+    background-color: red;
+    border: red solid;
+    height: 40px; 
+}
+#thailand2{
+    background-color: white;
+    border: white solid;
+    height: 40px;
+}
+#thailand3{
+    background-color: rgb(4, 4, 107);
+    border:rgb(4, 4, 107) solid;
+    height: 80px;
+}
+#thailand4{
+    background-color: white;
+    border: white solid;
+    height: 40px;
+}
+#thailand5{
+    background-color: red;
+    border: red solid;
+    height: 40px;
+}
+.Russia{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left;
+}
+#russia1{
+    background-color: white;
+    border: white solid;
+    height: 80px; 
+}
+#russia2{
+    background-color:blue;
+    border: blue solid;
+    height: 80px;
+}
+#russia3{
+    background-color: red;
+    border: red solid;
+    height: 80px;
+}
+.Japan{
+    width: 30%;
+    margin: 1.6%;
+    float: left;
+}
+#japan1{
+    background-color: white;
+    border:white solid;
+    height: 252px;
+}
+#japan2{
+    height: 160px;
+    width: 160px;
+    background-color: red;
+    border-radius: 80px;
+    border: red solid;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+}
+.Germany{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+ float: left;
+}
+#germany1{
+    background-color: black;
+    border: black solid;
+    height: 80px;
+}
+#germany2{
+    background-color: red;
+    border: red solid;
+    height: 80px;
+}
+#germany3{
+    background-color: yellow;
+    height: 80px;
+}
+ .Indonesia{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left; 
+}
+#indonesia1{
+    background-color: red;
+    border: red solid;
+    height: 120px; 
+}
+#indonesia2{
+    background-color: white;
+    border: white solid;
+    height: 120px; 
+}
+.Yemen{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left;
+}
+#yemen1{
+    background-color: red;
+    border: red solid;
+    height: 80px; 
+}
+#yemen2{
+    background-color:white;
+    border: white solid;
+    height: 80px;
+}
+#yemen3{
+    background-color: black;
+    border: black solid;
+    height: 80px;
+}
+.Peru{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left; 
+}
+#peru1{
+    width: 33.3%;
+    height: 252px;
+    background-color: red;
+    float: left;
+}
+#peru2{
+    width: 33.3%;
+    height: 252px;
+    background-color: white;
+    float: left; 
+}
+#peru3{
+    width: 33.3%;
+    height: 252px;
+    background-color: red;
+    float: left;
+}
+.Italy{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left; 
+}
+#italy1{
+    width: 33.3%;
+    height: 252px;
+    background-color: rgb(29, 161, 17);
+    float: left;
+}
+#italy2{
+    width: 33.3%;
+    height: 252px;
+    background-color: white;
+    float: left; 
+}
+#italy3{
+    width: 33.3%;
+    height: 252px;background-color:red;
+    float: left;
+}
+.Vietnam{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left; 
+}
+#vietnam1{
+    background-color: rgb(161, 17, 17);
+    border: rgb(161, 17, 17) solid;
+    height: 252px;
+}
+#vietnam2::before{
+    content: '★';
+    font-size: 1062.5%;
+    text-align: center;
+    color: yellow;
+    position: relative;
+    
+}
+.Senegal{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left; 
+}
+#senegal1{
+    width: 33.3%;
+    height: 252px;
+    background-color: rgb(29, 161, 17);
+    float: left;
+}
+#senegal2{
+    width: 33.3%;
+    height: 252px;
+    background-color: rgb(221, 225, 17);
+    float: left; 
+}
+#senegal3{
+    width: 33.3%;
+    height: 252px;
+    background-color: red;
+    float: left;
+}
+#senegal4::before{
+    content: '★';
+    font-size: 937.5%;
+    text-align: center;
+    color: green;
+    position: relative;
+}
+.Somalia{
+    padding: 0px;
+    width: 30%;
+    margin: 1.6%;
+    float: left; 
+}
+#somalia1{
+    background-color: rgb(85, 85, 238);
+    border: rgb(85, 85, 238) solid;
+    height: 252px;
+}
+#somalia2::before{
+    content: '★';
+    font-size: 1062.5%;
+    text-align: center;
+    color: white;
+    position: relative;
+    
+}
