@@ -149,3 +149,6 @@ float: left;
     border:  white 1px solid;
     clear: left;
 }
+.answers{
+    font-size: 18px;
+}
