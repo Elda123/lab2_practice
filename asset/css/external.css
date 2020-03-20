@@ -129,3 +129,23 @@ img{
     height: 300px;
     margin: 20px;
 }
+.profile img{
+border-radius: 300px;
+float: left;
+    
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+.column{
+    float: left;
+    margin: 0 30px 0 0;
+}
+.class2{
+    
+        margin-top: 15px;
+}
+.border{
+    border:  white 1px solid;
+    clear: left;
+}
